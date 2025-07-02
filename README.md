@@ -19,33 +19,42 @@ kcSlider is a minimal, dependency-free JavaScript slider component. It provides 
 ## Usage
 
 1. Clone the repository:
-   `git clone https://github.com/your-user/kc-slider.git`
+
+```bash
+git clone https://github.com/kaisarcode/kc-slider.git
+```
 
 2. Include the CSS and JS in your HTML:
 
-    <link href="kc-slider.css" rel="stylesheet" />
-    <script src="kc-slider.js"></script>
+```html
+<link href="kc-slider.css" rel="stylesheet" />
+<script src="kc-slider.js"></script>
+```
 
 3. Add the HTML structure:
 
-    <div class="kc-slider">
-        <div class="kc-slider-wrapper">
-            <div class="kc-slider-track">
-                <div class="kc-slider-item">Slide 1</div>
-                <div class="kc-slider-item">Slide 2</div>
-                <div class="kc-slider-item">Slide 3</div>
-            </div>
-            <div class="kc-slider-prev">‹</div>
-            <div class="kc-slider-next">›</div>
+```html
+<div class="kc-slider">
+    <div class="kc-slider-wrapper">
+        <div class="kc-slider-track">
+            <div class="kc-slider-item">Slide 1</div>
+            <div class="kc-slider-item">Slide 2</div>
+            <div class="kc-slider-item">Slide 3</div>
         </div>
+        <div class="kc-slider-prev">‹</div>
+        <div class="kc-slider-next">›</div>
     </div>
+</div>
+```
 
 4. Initialize the slider in JavaScript:
 
-    kcSlider({
-        autoplay: true,
-        interval: 5000
-    });
+```js
+kcSlider({
+    autoplay: true,
+    interval: 5000
+});
+```
 
 ## Options
 
