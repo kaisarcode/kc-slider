@@ -8,7 +8,7 @@ kcSlider is a minimal, dependency-free JavaScript slider component. It provides 
 
 ## Demo
 
-http://kaisarcode.com/resources/demos/kc-slider/index.html
+http://kaisarcode.com/resources/demos/kc-slider/demo.html
 
 ## Features
 
