@@ -7,7 +7,13 @@
   <title>Slider</title>
   <link href="kc-slider.css" rel="stylesheet" type="text/css" />
   <style>
-    /* Full width carousel */
+    html, body {
+        margin: 0;
+    }
+    .body-wrapper {
+        padding: 20px;
+    }
+
     #slider-fullwidth {
       width: 100vw;
       margin-bottom: 40px;
@@ -41,7 +47,10 @@
 <body>
 
   <!-- Full width carousel -->
+  <div class="body-wrapper">
   <h4>Full width carousel</h4>
+  </div>
+
   <div id="slider-fullwidth" class="kc-slider">
     <div class="kc-slider-wrapper">
       <div class="kc-slider-track">
@@ -59,46 +68,48 @@
   </div>
 
   <!-- Slider with a single visible item -->
-  <h4>Single item slides</h4>
-  <div class="slider-container" id="slider-single">
-    <div class="kc-slider">
-      <div class="kc-slider-wrapper">
-        <div class="kc-slider-track">
-          <div class="kc-slider-item">One</div>
-          <div class="kc-slider-item">Two</div>
-          <div class="kc-slider-item">Three</div>
-        </div>
-        <div class="kc-slider-prev">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20"><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>
-        </div>
-        <div class="kc-slider-next">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg>
+  <div class="body-wrapper">
+      <h4>Single item slides</h4>
+      <div class="slider-container" id="slider-single">
+        <div class="kc-slider">
+          <div class="kc-slider-wrapper">
+            <div class="kc-slider-track">
+              <div class="kc-slider-item">One</div>
+              <div class="kc-slider-item">Two</div>
+              <div class="kc-slider-item">Three</div>
+            </div>
+            <div class="kc-slider-prev">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20"><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>
+            </div>
+            <div class="kc-slider-next">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <!-- Slider with multiple visible items -->
-  <h4>Multi item slides</h4>
-  <div class="slider-container" id="slider-multi">
-    <div class="kc-slider">
-      <div class="kc-slider-wrapper">
-        <div class="kc-slider-track">
-          <div class="kc-slider-item">Item 1</div>
-          <div class="kc-slider-item">Item 2</div>
-          <div class="kc-slider-item">Item 3</div>
-          <div class="kc-slider-item">Item 4</div>
-          <div class="kc-slider-item">Item 5</div>
-          <div class="kc-slider-item">Item 6</div>
-        </div>
-        <div class="kc-slider-prev">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20"><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>
-        </div>
-        <div class="kc-slider-next">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg>
+      <!-- Slider with multiple visible items -->
+      <h4>Multi item slides</h4>
+      <div class="slider-container" id="slider-multi">
+        <div class="kc-slider">
+          <div class="kc-slider-wrapper">
+            <div class="kc-slider-track">
+              <div class="kc-slider-item">Item 1</div>
+              <div class="kc-slider-item">Item 2</div>
+              <div class="kc-slider-item">Item 3</div>
+              <div class="kc-slider-item">Item 4</div>
+              <div class="kc-slider-item">Item 5</div>
+              <div class="kc-slider-item">Item 6</div>
+            </div>
+            <div class="kc-slider-prev">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20"><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>
+            </div>
+            <div class="kc-slider-next">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
   </div>
 
   <script src="kc-slider.js"></script>
