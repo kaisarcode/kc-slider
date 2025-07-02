@@ -1,6 +1,6 @@
 /*!
  * kcSlider - Simple JavaScript slider
- * Copyright (c) 2025, KaisarCode <kaisar@kaisarcode.com>
+ * Copyright (c) 2006 - 2025, KaisarCode <kaisar@kaisarcode.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

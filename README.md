@@ -6,6 +6,10 @@ A lightweight JavaScript slider/carousel with touch support and optional autopla
 
 kcSlider is a minimal, dependency-free JavaScript slider component. It provides touch/swipe support, autoplay (optional), and smooth looping through slides using cloned items.
 
+## Demo
+
+http://kaisarcode.com/resources/demos/kc-slider/
+
 ## Features
 
 - No dependencies (vanilla JS)
