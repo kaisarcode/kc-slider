@@ -55,17 +55,11 @@ git clone https://github.com/kaisarcode/kc-slider.git
 
 ```js
 kcSlider({
+    visibleItems: 1,
     autoplay: true,
     interval: 5000
 });
 ```
-
-## Options
-
-| Option    | Type    | Default | Description                          |
-|-----------|---------|---------|------------------------------------|
-| autoplay  | Boolean | false   | Enables automatic sliding           |
-| interval  | Number  | 4000    | Time in milliseconds between slides when autoplay is enabled |
 
 ## License
 
