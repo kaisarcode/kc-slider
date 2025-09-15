@@ -11,7 +11,7 @@
 }
 
 .kc-slider-item {
-  flex: 0 0 auto; /* que no se ajuste automáticamente */
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
