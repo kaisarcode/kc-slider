@@ -54,7 +54,8 @@ git clone https://github.com/kaisarcode/kc-slider.git
 4. Initialize the slider in JavaScript:
 
 ```js
-kcSlider({
+let elem = document.querySelector('.kc-slider');
+kcSlider(elem, {
     visibleItems: 1,
     autoplay: true,
     interval: 5000
